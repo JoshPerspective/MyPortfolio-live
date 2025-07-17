@@ -16,4 +16,4 @@ def home_page(request):
         "know": skills
     }
 
-    return render(request, 'home_page.html', context)
+    return render(request, 'index.html', context)
